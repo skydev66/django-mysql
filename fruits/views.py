@@ -5,6 +5,8 @@ import json
 # Create your views here.
 def index(request):
     data = Fruits.objects.order_by('-value')[:5].values('value', 'name')
+
+    #Set chart properties
     chart = {
         "chart": {
             "type": "pie",

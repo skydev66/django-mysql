@@ -2,6 +2,7 @@
 import os
 import sys
 
+#define main function
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "python_django_mysql_template.settings")
     try:

@@ -1,5 +1,5 @@
+#import libraries
 from django.conf.urls import url
-
 from . import views
 
 # set app_name = 'fruits'

@@ -1,5 +1,5 @@
+#import libraries
 from __future__ import unicode_literals
-
 from django.apps import AppConfig
 
 #set name fruits

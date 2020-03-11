@@ -14,7 +14,10 @@
 <div id="container"></div>
 <script>
     anychart.onDocumentReady(function() {
-        var chart = anychart.fromJson({{chartData|safe}});
+        //Get Data from json
+        var chart = anychart.fromJson(
+            {{chartData|safe}}
+        );
         chart.draw();
     });
 </script>

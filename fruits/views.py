@@ -16,5 +16,7 @@ def index(request):
             "container": "container"
         }
     }
+
+    #Set context data and send it
     context = {"chartData": json.dumps(chart), "title": "Anychart Django template"}
     return render(request, 'fruits/index.html', context)
